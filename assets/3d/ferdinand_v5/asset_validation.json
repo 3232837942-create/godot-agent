@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "mesh_parts": 575,
+  "track_links": 212,
+  "track_animation_advances": true,
+  "skirt_panels": 14,
+  "source_nodes": 651,
+  "glb_nodes": 651,
+  "glb_meshes": 364,
+  "preserved_v4_files": 38,
+  "v4_backup_hashes_match": true,
+  "turret_360": true,
+  "hatches_open": true,
+  "recoil_m": 0.23,
+  "roof_apertures_open": true,
+  "explosion": "575 real mesh parts, authored staged offsets; interactive presentation in viewer, not a glTF physics rig"
+}

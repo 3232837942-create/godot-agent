@@ -1,0 +1,93 @@
+#!/usr/bin/env python3
+"""Tests for remove_audio.py."""
+
+from __future__ import annotations
+
+import subprocess
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+AI_ROOT = SCRIPT_DIR.parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+if str(AI_ROOT) not in sys.path:
+    sys.path.insert(0, str(AI_ROOT))
+
+import remove_audio  # noqa: E402
+from common.dependency_utils import find_repo_root, resolve_tool_bin  # noqa: E402
+from common.output_utils import resolve_output_path  # noqa: E402
+from common.video_utils import video_output_name  # noqa: E402
+
+REPO_ROOT = find_repo_root(Path(__file__))
+assert REPO_ROOT is not None
+PYTHON_BIN = resolve_tool_bin(REPO_ROOT, "python")
+REMOVE_AUDIO_SCRIPT = SCRIPT_DIR / "remove_audio.py"
+SAMPLE_VIDEO = REPO_ROOT / ".ai/test/video/opening.mp4"
+
+
+class RemoveAudioLogicTest(unittest.TestCase):
+    def test_build_ffmpeg_args_copy(self) -> None:
+        ffmpeg = Path("/ffmpeg")
+        src = Path("/in/clip.mp4")
+        out = Path("/out/clip.mp4")
+        cmd = remove_audio.build_ffmpeg_args(ffmpeg, src, out)
+        self.assertIn("-c:v", cmd)
+        self.assertIn("copy", cmd)
+        self.assertIn("-an", cmd)
+        self.assertNotIn("libx264", cmd)
+
+    def test_default_output_path(self) -> None:
+        source = Path("/tmp/clip.mp4")
+        out = resolve_output_path(
+            "",
+            source,
+            remove_audio.DEFAULT_OUTPUT_SUBDIR,
+            video_output_name(source),
+        )
+        self.assertEqual(
+            out,
+            source.parent / remove_audio.DEFAULT_OUTPUT_SUBDIR / "clip.mp4",
+        )
+
+
+class RemoveAudioCliTest(unittest.TestCase):
+    def run_cli(self, *args: str) -> subprocess.CompletedProcess[str]:
+        return subprocess.run(
+            [str(PYTHON_BIN), str(REMOVE_AUDIO_SCRIPT), *args],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            cwd=str(REPO_ROOT),
+        )
+
+    def test_help(self) -> None:
+        result = self.run_cli("--help")
+        self.assertEqual(result.returncode, 0)
+        self.assertIn("--video", result.stdout)
+        self.assertIn("--output", result.stdout)
+        self.assertNotIn("--dry-run", result.stdout)
+        self.assertNotIn("--overwrite", result.stdout)
+        self.assertNotIn("--reencode", result.stdout)
+
+    def test_missing_video(self) -> None:
+        result = self.run_cli()
+        self.assertNotEqual(result.returncode, 0)
+
+    def test_video_not_found(self) -> None:
+        result = self.run_cli("--video", "missing-no-such.mp4")
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("Video file not found", result.stderr)
+
+    def test_rejects_directory(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            result = self.run_cli("--video", tmp)
+            self.assertEqual(result.returncode, 1)
+            self.assertIn("directories are not supported", result.stderr)
+
+
+if __name__ == "__main__":
+    raise SystemExit(unittest.main())

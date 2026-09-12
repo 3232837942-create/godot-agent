@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "browser": "Codex in-app browser",
+  "quarter": "INSTRUMENTATION\n火炮俯仰\n0.0°\n炮塔方位\n90.0°\n舱盖开度\n0%\n炮管后坐\n0 mm\n炮口状态\n待发\n动作\n炮塔旋转 · 已暂停",
+  "fullTurn": "INSTRUMENTATION\n火炮俯仰\n0.0°\n炮塔方位\n-0.0°\n舱盖开度\n0%\n炮管后坐\n0 mm\n炮口状态\n待发\n动作\n炮塔旋转 · 已暂停",
+  "manual": "INSTRUMENTATION\n火炮俯仰\n14.0°\n炮塔方位\n180.0°\n舱盖开度\n0%\n炮管后坐\n0 mm\n炮口状态\n待发\n动作\n手动瞄准",
+  "fire": "INSTRUMENTATION\n火炮俯仰\n14.0°\n炮塔方位\n180.0°\n舱盖开度\n0%\n炮管后坐\n230 mm\n炮口状态\n炮口闪焰\n动作\n单次开火 · 已暂停",
+  "fireEnd": "INSTRUMENTATION\n火炮俯仰\n14.0°\n炮塔方位\n180.0°\n舱盖开度\n0%\n炮管后坐\n0 mm\n炮口状态\n结束\n动作\n单次开火 · 已暂停",
+  "hatches": "INSTRUMENTATION\n火炮俯仰\n0.0°\n炮塔方位\n0.0°\n舱盖开度\n100%\n炮管后坐\n0 mm\n炮口状态\n待发\n动作\n舱盖开合 · 已暂停",
+  "exploded": "INSTRUMENTATION\n火炮俯仰\n0.0°\n炮塔方位\n0.0°\n舱盖开度\n0%\n炮管后坐\n0 mm\n炮口状态\n待发\n动作\n分解观察",
+  "reset": "INSTRUMENTATION\n火炮俯仰\n0.0°\n炮塔方位\n0.0°\n舱盖开度\n0%\n炮管后坐\n0 mm\n炮口状态\n待发\n动作\n静止",
+  "views": {
+    "后斜": "active",
+    "侧面": "active",
+    "正面": "active",
+    "后面": "active",
+    "俯视": "active",
+    "等距": "active"
+  },
+  "drive": "INSTRUMENTATION\n火炮俯仰\n0.0°\n炮塔方位\n0.0°\n舱盖开度\n0%\n炮管后坐\n0 mm\n炮口状态\n待发\n动作\n履带循环 · 已暂停",
+  "errors": []
+}

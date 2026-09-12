@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "input-audio",
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "id": "input-image",
+      "outputs": [
+        {
+          "id": "out",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "input-video",
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "input-text",
+      "outputs": [
+        {
+          "id": "out",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "input-folder",
+      "outputs": [
+        {
+          "id": "out",
+          "type": "folder"
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "id": "batch-for-each",
+      "inputs": [
+        {
+          "id": "folder",
+          "type": "folder"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "item",
+          "type": "audio"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skill": "audio-to-wav",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-to-wav/convert.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "audio-to-ogg",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-to-ogg/convert.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "audio-trim",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-trim/trim.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "audio-denoise",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-denoise/denoise.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "audio-fade",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-fade/fade.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "audio-loudness-normalization",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-loudness-normalization/normalize.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "audio-sample-rate-standardize",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-sample-rate-standardize/standardize.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "audio-volume-adjust",
+      "category": "audio",
+      "cli": ".dependency/python/python .ai/audio-volume-adjust/adjust.py --audio {audio}",
+      "inputs": [
+        {
+          "id": "audio",
+          "type": "audio"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "video-to-wav",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-to-wav/convert.py --video {video}",
+      "inputs": [
+        {
+          "id": "video",
+          "type": "video"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "audio"
+        }
+      ]
+    },
+    {
+      "skill": "video-remove-audio",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-remove-audio/remove_audio.py --video {video}",
+      "inputs": [
+        {
+          "id": "video",
+          "type": "video"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "video-to-ogv",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-to-ogv/convert.py --video {video}",
+      "inputs": [
+        {
+          "id": "video",
+          "type": "video"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "video-compress-to-size",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-compress-to-size/compress.py --video {video}",
+      "inputs": [
+        {
+          "id": "video",
+          "type": "video"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "video-4k-normalization",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-4k-normalization/normalize.py --video {video}",
+      "inputs": [
+        {
+          "id": "video",
+          "type": "video"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "video-to-4k",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-to-4k/convert.py --video {video}",
+      "inputs": [
+        {
+          "id": "video",
+          "type": "video"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "video-to-60fps",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-to-60fps/convert.py --video {video}",
+      "inputs": [
+        {
+          "id": "video",
+          "type": "video"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "video-merge",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-merge/merge.py --folder {folder}",
+      "inputs": [
+        {
+          "id": "folder",
+          "type": "folder"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "video-merge-gpu",
+      "category": "video",
+      "cli": ".dependency/python/python .ai/video-merge-gpu/merge.py --folder {folder}",
+      "inputs": [
+        {
+          "id": "folder",
+          "type": "folder"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "skill": "image-to-png",
+      "category": "image",
+      "cli": ".dependency/python/python .ai/image-to-png/convert.py --image {image}",
+      "inputs": [
+        {
+          "id": "image",
+          "type": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "skill": "image-trim",
+      "category": "image",
+      "cli": ".dependency/image-trim/.venv/Scripts/python.exe .ai/image-trim/trim.py --image {image}",
+      "inputs": [
+        {
+          "id": "image",
+          "type": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "skill": "image-remove-background",
+      "category": "image",
+      "cli": ".dependency/rembg/.venv/Scripts/python.exe .ai/image-remove-background/remove_background.py --image {image}",
+      "inputs": [
+        {
+          "id": "image",
+          "type": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "skill": "image-remove-white-background",
+      "category": "image",
+      "cli": ".dependency/image-remove-white-background/.venv/Scripts/python.exe .ai/image-remove-white-background/remove_white_bg.py --image {image}",
+      "inputs": [
+        {
+          "id": "image",
+          "type": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "skill": "image-resize",
+      "category": "image",
+      "cli": ".dependency/python/python .ai/image-resize/resize.py --image {image}",
+      "inputs": [
+        {
+          "id": "image",
+          "type": "image"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "out",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

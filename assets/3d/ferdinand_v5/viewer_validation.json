@@ -1,0 +1,66 @@
+{
+  "exploded": {
+    "error": "",
+    "mode": "explode",
+    "parts": "575 个独立零件",
+    "progress": "100"
+  },
+  "closed": {
+    "progress": "0",
+    "spread": "0%"
+  },
+  "progressWorks": true,
+  "modules": {
+    "mode": "modules",
+    "progress": "100",
+    "title": "MODULES / 模块",
+    "skirtsMoveWithTrackModules": true
+  },
+  "reset": {
+    "error": "",
+    "mode": "",
+    "progress": "0",
+    "recoil": "0 mm",
+    "yaw": "0.0°"
+  },
+  "views": [
+    "侧面",
+    "正面",
+    "后面",
+    "俯视",
+    "后斜",
+    "等距"
+  ],
+  "firePeak": {
+    "fx": "炮口闪焰",
+    "progress": "3",
+    "recoil": "230 mm"
+  },
+  "fireEnd": {
+    "fx": "结束",
+    "recoil": "0 mm"
+  },
+  "turret90": {
+    "progress": "25",
+    "yaw": "90.0°"
+  },
+  "hatches": {
+    "hatch": "98%",
+    "progress": "50"
+  },
+  "aimedFire": {
+    "elevation": "14.0°",
+    "error": "",
+    "recoil": "230 mm",
+    "yaw": "180.0°"
+  },
+  "drive": {
+    "error": "",
+    "motion": "履带循环 · 已暂停",
+    "progress": "20",
+    "frameImagesDiffer": true
+  },
+  "result": "PASS",
+  "checkedAt": "2026-09-11T09:12:39.309Z",
+  "notes": "Browser controls and rendered screenshots checked. Frame image difference includes UI state; source track animation was independently preserved and checked in Blender."
+}

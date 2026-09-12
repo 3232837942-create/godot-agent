@@ -1,0 +1,37 @@
+"""Compose drawing plates from actual V5 renders and package the verified asset."""
+from pathlib import Path
+from PIL import Image,ImageDraw,ImageFont
+import zipfile
+OUT=Path(__file__).resolve().parents[2]/'assets'/'3d'/'ferdinand_v5'
+PAPER='#eef3f9';INK='#203d5b';RULE='#b3c3d4'
+def font(n,bold=False):return ImageFont.truetype('C:/Windows/Fonts/consolab.ttf' if bold else 'C:/Windows/Fonts/consola.ttf',n)
+def board(w,h):
+    im=Image.new('RGB',(w,h),PAPER);d=ImageDraw.Draw(im)
+    for x in range(20,w,24):d.line((x,20,x,h-20),fill='#dce5ef')
+    for y in range(20,h,24):d.line((20,y,w-20,y),fill='#dce5ef')
+    d.rectangle((22,22,w-23,h-23),outline=INK,width=2);d.rectangle((30,30,w-31,h-31),outline=RULE)
+    d.text((65,57),'ARMOUR / FORM STUDIES',font=font(24,True),fill=INK)
+    d.text((w-65,57),'FD-184R  /  SEGMENTED ARMOR',font=font(29,True),anchor='ra',fill=INK)
+    d.text((65,98),'DRAFTING SERIES / V5 / ASSEMBLY AND PARTS',font=font(14),fill='#758ca2');return im
+def place(im,name,box):
+    src=Image.open(OUT/('render_'+name+'.png')).convert('RGBA');src=src.crop(src.getbbox());src.thumbnail((box[2]-box[0],box[3]-box[1]),Image.Resampling.LANCZOS)
+    x=box[0]+(box[2]-box[0]-src.width)//2;y=box[1]+(box[3]-box[1]-src.height)//2;im.paste(src,(x,y),src)
+hero=board(2400,1750);place(hero,'iso',(130,165,2260,1540));d=ImageDraw.Draw(hero)
+d.rectangle((65,1555,1125,1685),fill=PAPER,outline=INK,width=2)
+for i,txt in enumerate(['14 SEGMENTED SKIRTS / NESTED TURRET BEARING','575 MESH PARTS / STAGED EXPLODED VIEW','ORIGINAL MODULE VIEW / MOTION / FIRING EFFECTS']):d.text((88,1574+i*33),txt,font=font(19,i==0),fill=INK)
+d.text((2320,1650),'FD-184R / V5\nFICTIONAL CONVERSION',font=font(20,True),anchor='rd',fill=INK);hero.save(OUT/'ferdinand_drawing.png')
+sheet=board(2400,1900);d=ImageDraw.Draw(sheet)
+for name,box,label in [('side',(70,185,1390,945),'01 / SIDE ELEVATION'),('top',(70,1000,1390,1750),'02 / PLAN'),('front',(1450,185,2330,945),'03 / FRONT'),('rear',(1450,1000,2330,1750),'04 / REAR')]:
+    place(sheet,name,(box[0],box[1]+40,box[2],box[3]));d.text((box[0]+10,box[1]),label,font=font(20,True),fill=INK)
+d.line((1420,160,1420,1790),fill=RULE);d.line((65,973,2335,973),fill=RULE)
+d.text((65,1820),'SAME VEHICLE / FOUR ORTHOGRAPHIC VIEWS / BLENDER MASTER',font=font(18),fill=INK);sheet.save(OUT/'ferdinand_four_views.png')
+for path in OUT.glob('render_*.png'):
+    src=Image.open(path).convert('RGBA');im=Image.new('RGB',src.size,PAPER);im.paste(src,(0,0),src);im.save(OUT/path.name.replace('render_','view_'))
+files=['ferdinand_technical.blend','ferdinand_vehicle.glb','viewer.html','viewer.js','three.min.js','vehicle_data.js','fire_effects.js','README.md','validation.json','asset_validation.json','viewer_validation.json','ferdinand_drawing.png','ferdinand_four_views.png']
+files += [p.name for p in OUT.glob('view_*.png')]+[p.name for p in OUT.glob('viewer_*.png')]
+if all((OUT/name).exists() for name in files):
+    with zipfile.ZipFile(OUT/'fd184r_v5.zip','w',zipfile.ZIP_DEFLATED) as archive:
+        for name in files:archive.write(OUT/name,name)
+    with zipfile.ZipFile(OUT/'fd184r_v5.zip') as archive:assert archive.testzip() is None and all(i.file_size for i in archive.infolist())
+    print('V5_PACKAGE_OK',len(files))
+else:print('V5_PLATES_OK / packaging pending verification')

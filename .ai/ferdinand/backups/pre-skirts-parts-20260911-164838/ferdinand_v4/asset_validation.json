@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "vehicle_nodes": 302,
+  "triangles_with_track_instances": 182890,
+  "dimensions_m": [
+    8.682363986968994,
+    3.7739999294281006,
+    4.354866877198219
+  ],
+  "glb_nodes": 302,
+  "glb_meshes": 56,
+  "glb_animation_clips": 233,
+  "turret_rotation_deg": 360,
+  "roof_apertures_open": true,
+  "attachments_follow_turret": true,
+  "recoil_m": 0.23,
+  "original_v3_unchanged": true,
+  "presentation_fx_objects": 18
+}

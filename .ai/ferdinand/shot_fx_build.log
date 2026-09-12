@@ -1,0 +1,126 @@
+00:00.687  blend            | Read blend: "X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\ferdinand_technical.blend"
+X:\迅雷下载\godot-agent\.ai\ferdinand\add_shot_fx.py:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1524 - 1521 appears twice, correcting
+Warning: edge 1527 - 1524 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1548 - 1545 appears twice, correcting
+Warning: edge 1551 - 1548 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1545 - 1548 appears twice, correcting
+Warning: edge 1548 - 1551 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1521 - 1524 appears twice, correcting
+Warning: edge 1524 - 1527 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+00:08.500  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_fire.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "ferdinand_technical.blend"
+BLENDER_FIRE_FX_OK 18
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

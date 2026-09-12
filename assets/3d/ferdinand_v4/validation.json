@@ -1,0 +1,9 @@
+{
+  "variant": "FD-184R V4",
+  "source_preserved": "X:\\\u8fc5\u96f7\u4e0b\u8f7d\\godot-agent\\assets\\3d\\ferdinand_v3\\ferdinand_technical.blend",
+  "turret_sweep_samples": 144,
+  "hatch_pose_samples": 21,
+  "gun_pose_samples": 12,
+  "intersection_results": [],
+  "limits": "Sampled mesh intersections; no vehicle physics or engine runtime validation."
+}

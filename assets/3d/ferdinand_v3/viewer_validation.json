@@ -1,0 +1,280 @@
+{
+  "errors": [],
+  "snapshots": {
+    "iso": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "front": {
+      "view": "front",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "side": {
+      "view": "side",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "top": {
+      "view": "top",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "rear": {
+      "view": "rear",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "drive": {
+      "view": "iso",
+      "motion": "drive",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.527425885625263,
+        0.9124361895591167,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "aim": {
+      "view": "iso",
+      "motion": "aim",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -2.719935894012451,
+        0.2603972852230072,
+        1.5
+      ],
+      "recoil": -8.38188718431249e-9,
+      "elevation": -0.010833084471399137,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "fire": {
+      "view": "iso",
+      "motion": "fire",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -2.719935894012451,
+        0.2603972852230072,
+        1.5
+      ],
+      "recoil": -0.207000243544829,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "hatches": {
+      "view": "iso",
+      "motion": "hatches",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -2.719935894012451,
+        0.2603972852230072,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": -0.2166616409766254,
+      "drawCalls": 268
+    },
+    "explode": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0.9512475584638715,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "orbit": {
+      "view": "custom",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    }
+  },
+  "poses": {
+    "rest": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.5350000858306885,
+        1,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "drive": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -3.4664199352264404,
+        0.7379642128944397,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "down": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -2.719935894012451,
+        0.2603972852230072,
+        1.5
+      ],
+      "recoil": -1.2107163493950914e-8,
+      "elevation": -0.06981316295590324,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "up": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -2.719935894012451,
+        0.2603972852230072,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0.24434605936753906,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "recoil": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -2.719935894012451,
+        0.2603972852230072,
+        1.5
+      ],
+      "recoil": -0.2299999443508509,
+      "elevation": 0,
+      "hatch": 0,
+      "drawCalls": 268
+    },
+    "hatch": {
+      "view": "iso",
+      "motion": "",
+      "exploded": 0,
+      "nodeCount": 279,
+      "trackCount": 212,
+      "trackPosition": [
+        -2.719935894012451,
+        0.2603972852230072,
+        1.5
+      ],
+      "recoil": 0,
+      "elevation": 0,
+      "hatch": -1.3962631950936462,
+      "drawCalls": 268
+    },
+    "hatchReadout": "100%"
+  }
+}

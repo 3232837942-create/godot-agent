@@ -1,0 +1,161 @@
+[gd_scene format=3 uid="uid://dnrkvwnv1tn73"]
+
+[ext_resource type="Script" uid="uid://bp2gcdjvjxrt1" path="res://gui/SkillsWorkflow.gd" id="1_workflow"]
+[ext_resource type="Script" uid="uid://n3x46rjx4qlo" path="res://gui/ui/SkillGraphEdit.gd" id="2_graph"]
+
+[node name="SkillsWorkflow" type="Control" unique_id=1767664543]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_workflow")
+
+[node name="Root" type="VBoxContainer" parent="." unique_id=1496916851]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="Toolbar" type="HBoxContainer" parent="Root" unique_id=423968333]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="TitlePanel" type="PanelContainer" parent="Root/Toolbar" unique_id=710664402]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+
+[node name="WorkflowName" type="Label" parent="Root/Toolbar/TitlePanel" unique_id=1291979387]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Untitled"
+vertical_alignment = 1
+
+[node name="Actions" type="HBoxContainer" parent="Root/Toolbar" unique_id=412329555]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 8
+
+[node name="NewButton" type="Button" parent="Root/Toolbar/Actions" unique_id=1943563972]
+layout_mode = 2
+text = "New"
+
+[node name="LoadButton" type="Button" parent="Root/Toolbar/Actions" unique_id=147616765]
+layout_mode = 2
+text = "Open"
+
+[node name="SaveButton" type="Button" parent="Root/Toolbar/Actions" unique_id=1814514388]
+layout_mode = 2
+text = "Save"
+
+[node name="DeleteButton" type="Button" parent="Root/Toolbar/Actions" unique_id=854863201]
+layout_mode = 2
+text = "Delete Node"
+
+[node name="LocaleButton" type="Button" parent="Root/Toolbar/Actions"]
+layout_mode = 2
+text = "中文"
+
+[node name="LogButton" type="Button" parent="Root/Toolbar/Actions" unique_id=269410953]
+layout_mode = 2
+text = "Log"
+
+[node name="RunButton" type="Button" parent="Root/Toolbar/Actions" unique_id=225592570]
+layout_mode = 2
+text = "Run"
+
+[node name="Body" type="HBoxContainer" parent="Root" unique_id=1067621979]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+
+[node name="Sidebar" type="PanelContainer" parent="Root/Body" unique_id=1719186882]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 3
+clip_contents = true
+
+[node name="PaletteVBox" type="VBoxContainer" parent="Root/Body/Sidebar" unique_id=2089542536]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 6
+
+[node name="PaletteTitle" type="Label" parent="Root/Body/Sidebar/PaletteVBox" unique_id=646591847]
+layout_mode = 2
+text = "Skill Library"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PaletteHint" type="Label" parent="Root/Body/Sidebar/PaletteVBox" unique_id=1796162826]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Expand categories; double-click a skill to add a node, or a workflow to open"
+autowrap_mode = 3
+
+[node name="PaletteScroll" type="ScrollContainer" parent="Root/Body/Sidebar/PaletteVBox" unique_id=1771713414]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="PaletteTree" type="Tree" parent="Root/Body/Sidebar/PaletteVBox/PaletteScroll" unique_id=1721710727]
+custom_minimum_size = Vector2(276, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+hide_root = true
+scroll_horizontal_enabled = false
+
+[node name="SkillGraphEdit" type="GraphEdit" parent="Root/Body" unique_id=554619772]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+right_disconnects = true
+script = ExtResource("2_graph")
+
+[node name="SaveDialog" type="FileDialog" parent="." unique_id=1635487882]
+oversampling_override = 1.0
+title = "Save Workflow"
+size = Vector2i(900, 600)
+ok_button_text = "Save"
+access = 2
+filters = PackedStringArray("*.workflow.json ; Workflow JSON", "* ; All Files")
+
+[node name="LoadDialog" type="FileDialog" parent="." unique_id=38091977]
+oversampling_override = 1.0
+title = "Open Workflow"
+size = Vector2i(900, 600)
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.workflow.json ; Workflow JSON")
+
+[node name="LogWindow" type="Window" parent="." unique_id=870637878]
+oversampling_override = 1.0
+title = "Run Log"
+initial_position = 2
+size = Vector2i(1400, 900)
+visible = false
+transient = true
+min_size = Vector2i(960, 540)
+
+[node name="LogOutput" type="TextEdit" parent="LogWindow" unique_id=714942692]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+editable = false
+wrap_mode = 1

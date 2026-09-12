@@ -1,0 +1,958 @@
+X:\迅雷下载\godot-agent\.ai\ferdinand\rebuild_v3.py:18: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name); m.diffuse_color = (*base,1); m.use_nodes = True
+X:\迅雷下载\godot-agent\.ai\ferdinand\rebuild_v3.py:369: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True; scene.world.node_tree.nodes['Background'].inputs[0].default_value=(1,1,1,1)
+X:\迅雷下载\godot-agent\.ai\ferdinand\rebuild_v3.py:467: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  p=bpy.data.materials.new('Game '+m.name); p.diffuse_color=m.diffuse_color; p.use_nodes=True
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Saved as "ferdinand_technical.blend"
+INFO Draco is available, use library at X:\SteamLibrary\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at X:\SteamLibrary\steamapps\common\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+12:11:26 | INFO: Starting glTF 2.0 export
+12:11:26 | INFO: Extracting primitive: CASEMATE_FITTINGS
+12:11:27 | INFO: Primitives created: 4
+12:11:27 | INFO: Extracting primitive: CASEMATE_FRONT
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: CASEMATE_GUN_SEAT
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: CASEMATE_L
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: CASEMATE_R
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: CASEMATE_REAR
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: CASEMATE_ROOF
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: DRIVER_NOSE
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: ENGINE_DECK
+12:11:27 | INFO: Primitives created: 5
+12:11:27 | INFO: Extracting primitive: FENDER_FRONT_L
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: FENDER_FRONT_R
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: FENDER_REAR_L
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: FENDER_REAR_R
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: FENDERS_AND_TOOLS
+12:11:27 | INFO: Primitives created: 4
+12:11:27 | INFO: Extracting primitive: FRONT_IDLER_L_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: FRONT_IDLER_R_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: GUN_MANTLET
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: GUN_BARREL
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: HATCH_L
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: HATCH_L_RIM
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: HATCH_R
+12:11:27 | INFO: Primitives created: 2
+12:11:27 | INFO: Extracting primitive: HATCH_R_RIM
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: HULL_LOWER
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: HULL_SPONSONS
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: REAR_DETAILS
+12:11:27 | INFO: Primitives created: 4
+12:11:27 | INFO: Extracting primitive: REAR_SPROCKET_L_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: REAR_SPROCKET_R_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: BOGIE_ARMS_L
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_L_00_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_L_01_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_L_02_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_L_03_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_L_04_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_L_05_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: BOGIE_ARMS_R
+12:11:27 | INFO: Primitives created: 1
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_R_00_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_R_01_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_R_02_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_R_03_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_R_04_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: ROAD_WHEEL_R_05_MESH
+12:11:27 | INFO: Primitives created: 3
+12:11:27 | INFO: Extracting primitive: TRACK_LINK_PROTOTYPE
+12:11:27 | INFO: Primitives created: 3
+12:11:31 | INFO: Finished glTF 2.0 export in 4.8822760581970215 s
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1524 - 1521 appears twice, correcting
+Warning: edge 1527 - 1524 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1548 - 1545 appears twice, correcting
+Warning: edge 1551 - 1548 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1545 - 1548 appears twice, correcting
+Warning: edge 1548 - 1551 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1521 - 1524 appears twice, correcting
+Warning: edge 1524 - 1527 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+00:16.485  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_iso.png'
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1512 - 1509 appears twice, correcting
+Warning: edge 1515 - 1512 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1560 - 1557 appears twice, correcting
+Warning: edge 1563 - 1560 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1557 - 1560 appears twice, correcting
+Warning: edge 1560 - 1563 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1509 - 1512 appears twice, correcting
+Warning: edge 1512 - 1515 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+00:21.969  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_side.png'
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1416 - 1413 appears twice, correcting
+Warning: edge 1419 - 1416 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1464 - 1461 appears twice, correcting
+Warning: edge 1467 - 1464 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1524 - 1521 appears twice, correcting
+Warning: edge 1527 - 1524 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1548 - 1545 appears twice, correcting
+Warning: edge 1551 - 1548 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1545 - 1548 appears twice, correcting
+Warning: edge 1548 - 1551 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1413 - 1416 appears twice, correcting
+Warning: edge 1416 - 1419 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1461 - 1464 appears twice, correcting
+Warning: edge 1464 - 1467 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1521 - 1524 appears twice, correcting
+Warning: edge 1524 - 1527 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+00:28.407  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_top.png'
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1425 - 1422 appears twice, correcting
+Warning: edge 1428 - 1425 appears twice, correcting
+Warning: edge 1431 - 1428 appears twice, correcting
+Warning: edge 1434 - 1431 appears twice, correcting
+Warning: edge 1437 - 1434 appears twice, correcting
+Warning: edge 1446 - 1443 appears twice, correcting
+Warning: edge 1449 - 1446 appears twice, correcting
+Warning: edge 1452 - 1449 appears twice, correcting
+Warning: edge 1455 - 1452 appears twice, correcting
+Warning: edge 1458 - 1455 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1422 - 1425 appears twice, correcting
+Warning: edge 1425 - 1428 appears twice, correcting
+Warning: edge 1428 - 1431 appears twice, correcting
+Warning: edge 1431 - 1434 appears twice, correcting
+Warning: edge 1434 - 1437 appears twice, correcting
+Warning: edge 1443 - 1446 appears twice, correcting
+Warning: edge 1446 - 1449 appears twice, correcting
+Warning: edge 1449 - 1452 appears twice, correcting
+Warning: edge 1452 - 1455 appears twice, correcting
+Warning: edge 1455 - 1458 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+00:43.360  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_front.png'
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1425 - 1422 appears twice, correcting
+Warning: edge 1428 - 1425 appears twice, correcting
+Warning: edge 1431 - 1428 appears twice, correcting
+Warning: edge 1434 - 1431 appears twice, correcting
+Warning: edge 1437 - 1434 appears twice, correcting
+Warning: edge 1446 - 1443 appears twice, correcting
+Warning: edge 1449 - 1446 appears twice, correcting
+Warning: edge 1452 - 1449 appears twice, correcting
+Warning: edge 1455 - 1452 appears twice, correcting
+Warning: edge 1458 - 1455 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1422 - 1425 appears twice, correcting
+Warning: edge 1425 - 1428 appears twice, correcting
+Warning: edge 1428 - 1431 appears twice, correcting
+Warning: edge 1431 - 1434 appears twice, correcting
+Warning: edge 1434 - 1437 appears twice, correcting
+Warning: edge 1443 - 1446 appears twice, correcting
+Warning: edge 1446 - 1449 appears twice, correcting
+Warning: edge 1449 - 1452 appears twice, correcting
+Warning: edge 1452 - 1455 appears twice, correcting
+Warning: edge 1455 - 1458 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+00:58.157  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_rear.png'
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+01:05.563  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_rear_iso.png'
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: degenerated triangle detected, correcting
+Warning: edge 1392 - 1581 appears twice, correcting
+Warning: edge 1393 - 1392 appears twice, correcting
+Warning: edge 1398 - 1393 appears twice, correcting
+Warning: edge 1401 - 1398 appears twice, correcting
+Warning: edge 1404 - 1401 appears twice, correcting
+Warning: edge 1407 - 1404 appears twice, correcting
+Warning: edge 1422 - 1419 appears twice, correcting
+Warning: edge 1461 - 1458 appears twice, correcting
+Warning: edge 1476 - 1473 appears twice, correcting
+Warning: edge 1479 - 1476 appears twice, correcting
+Warning: edge 1482 - 1479 appears twice, correcting
+Warning: edge 1485 - 1482 appears twice, correcting
+Warning: edge 1488 - 1485 appears twice, correcting
+Warning: edge 1491 - 1488 appears twice, correcting
+Warning: edge 1494 - 1491 appears twice, correcting
+Warning: edge 1497 - 1494 appears twice, correcting
+Warning: edge 1500 - 1497 appears twice, correcting
+Warning: edge 1503 - 1500 appears twice, correcting
+Warning: edge 1506 - 1503 appears twice, correcting
+Warning: edge 1509 - 1506 appears twice, correcting
+Warning: edge 1518 - 1515 appears twice, correcting
+Warning: edge 1521 - 1518 appears twice, correcting
+Warning: edge 1524 - 1521 appears twice, correcting
+Warning: edge 1527 - 1524 appears twice, correcting
+Warning: edge 1530 - 1527 appears twice, correcting
+Warning: edge 1533 - 1530 appears twice, correcting
+Warning: edge 1536 - 1533 appears twice, correcting
+Warning: edge 1539 - 1536 appears twice, correcting
+Warning: edge 1542 - 1539 appears twice, correcting
+Warning: edge 1545 - 1542 appears twice, correcting
+Warning: edge 1548 - 1545 appears twice, correcting
+Warning: edge 1551 - 1548 appears twice, correcting
+Warning: edge 1554 - 1551 appears twice, correcting
+Warning: edge 1557 - 1554 appears twice, correcting
+Warning: edge 1566 - 1563 appears twice, correcting
+Warning: edge 1569 - 1566 appears twice, correcting
+Warning: edge 1572 - 1569 appears twice, correcting
+Warning: edge 1575 - 1572 appears twice, correcting
+Warning: edge 1578 - 1575 appears twice, correcting
+Warning: edge 1581 - 1578 appears twice, correcting
+Warning: edge 1533 - 1536 appears twice, correcting
+Warning: edge 1536 - 1539 appears twice, correcting
+Warning: edge 1539 - 1542 appears twice, correcting
+Warning: edge 1542 - 1545 appears twice, correcting
+Warning: edge 1545 - 1548 appears twice, correcting
+Warning: edge 1548 - 1551 appears twice, correcting
+Warning: edge 1551 - 1554 appears twice, correcting
+Warning: edge 1554 - 1557 appears twice, correcting
+Warning: edge 1563 - 1566 appears twice, correcting
+Warning: edge 1566 - 1569 appears twice, correcting
+Warning: edge 1569 - 1572 appears twice, correcting
+Warning: edge 1572 - 1575 appears twice, correcting
+Warning: edge 1575 - 1578 appears twice, correcting
+Warning: edge 1578 - 1581 appears twice, correcting
+Warning: edge 1581 - 1392 appears twice, correcting
+Warning: edge 1392 - 1393 appears twice, correcting
+Warning: edge 1393 - 1398 appears twice, correcting
+Warning: edge 1398 - 1401 appears twice, correcting
+Warning: edge 1401 - 1404 appears twice, correcting
+Warning: edge 1404 - 1407 appears twice, correcting
+Warning: edge 1419 - 1422 appears twice, correcting
+Warning: edge 1458 - 1461 appears twice, correcting
+Warning: edge 1473 - 1476 appears twice, correcting
+Warning: edge 1476 - 1479 appears twice, correcting
+Warning: edge 1479 - 1482 appears twice, correcting
+Warning: edge 1482 - 1485 appears twice, correcting
+Warning: edge 1485 - 1488 appears twice, correcting
+Warning: edge 1488 - 1491 appears twice, correcting
+Warning: edge 1491 - 1494 appears twice, correcting
+Warning: edge 1494 - 1497 appears twice, correcting
+Warning: edge 1497 - 1500 appears twice, correcting
+Warning: edge 1500 - 1503 appears twice, correcting
+Warning: edge 1503 - 1506 appears twice, correcting
+Warning: edge 1506 - 1509 appears twice, correcting
+Warning: edge 1515 - 1518 appears twice, correcting
+Warning: edge 1518 - 1521 appears twice, correcting
+Warning: edge 1521 - 1524 appears twice, correcting
+Warning: edge 1524 - 1527 appears twice, correcting
+Warning: edge 1527 - 1530 appears twice, correcting
+Warning: edge 1530 - 1533 appears twice, correcting
+01:13.485  render           | Saved: 'X:\迅雷下载\godot-agent\assets\3d\ferdinand_v3\render_hatches.png'
+
+Info: Saved as "ferdinand_technical.blend"
+FERDINAND_V3_COMPLETE {"design": "Ferdinand inspired V3", "measured_mesh_bounds_m": [9.045463562011719, 3.7739999294281006, 2.9727325439453125], "track_width_m": 0.64, "track_links_per_side": 106, "road_wheels_per_side": 6, "clearance_checks": {"roadwheel_gap_m": 0.039999999999999925, "lower_hull_to_track_inner_gap_m": 0.020000000000000018, "track_to_fender_vertical_gap_m": 0.06899999999999995, "track_nominal_wheel_radial_clearance_m": 0.03350000000000003, "wheel_pairs_end_clearance_m": 0.016193020618990195, "minimum_gun_to_engine_deck_gap_m": 0.08819760775252194, "sampled_intersections": [], "mudguard_drive_samples": 121, "gun_combined_poses": 75, "ball_to_socket_radial_gap_m": 0.020000000000000018}, "validated_frames": [1, 19, 61, 110, 145, 186, 250], "limitations": "Selected moving-part checks only; assembly joints intentionally meet. No engine runtime or battle physics validation."}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

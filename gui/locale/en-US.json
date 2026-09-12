@@ -1,0 +1,89 @@
+{
+  "locale": "en-US",
+  "ui": {
+    "window_title": "Skills Workflow — {}",
+    "untitled": "Untitled",
+    "toolbar": {
+      "new": "New",
+      "load": "Open",
+      "save": "Save",
+      "delete": "Delete Node",
+      "log": "Log",
+      "run": "Run",
+      "stop": "Stop"
+    },
+    "locale_switch": {
+      "to_en": "EN",
+      "to_zh": "中文"
+    },
+    "palette": {
+      "title": "Skill Library",
+      "hint": "Expand categories; double-click a skill to add a node, or a workflow to open",
+      "my_workflows": "My Workflows"
+    },
+    "dialog": {
+      "save_title": "Save Workflow",
+      "load_title": "Open Workflow",
+      "log_title": "Run Log",
+      "workflow_filter": "Workflow JSON",
+      "all_files": "All Files"
+    },
+    "node": {
+      "connect_upstream": "Connect upstream",
+      "path_placeholder": "Select or enter {}",
+      "output_arrow": "→ {}"
+    },
+    "batch": {
+      "glob": "Glob",
+      "output_type": "Output Type"
+    }
+  },
+  "category": {
+    "source": "Input",
+    "audio": "Audio",
+    "image": "Image",
+    "video": "Video"
+  },
+  "port_type": {
+    "audio": "Audio",
+    "image": "Image",
+    "video": "Video",
+    "text": "Text",
+    "folder": "Folder"
+  },
+  "port": {
+    "audio": "Audio",
+    "image": "Image",
+    "video": "Video",
+    "text": "Text",
+    "folder": "Folder",
+    "item": "File",
+    "glob": "Glob"
+  },
+  "node_port": {
+    "audio-to-wav.out": "WAV",
+    "audio-to-ogg.out": "OGG",
+    "image-to-png.out": "PNG",
+    "image-trim.out": "PNG",
+    "image-remove-background.out": "PNG",
+    "image-remove-white-background.out": "PNG",
+    "image-resize.out": "PNG",
+    "video-merge.folder": "Video Folder",
+    "video-merge-gpu.folder": "Video Folder"
+  },
+  "pipeline": {
+    "empty_or_cycle": "Workflow is empty or contains a cycle",
+    "completed": "Pipeline completed",
+    "unknown_batch": "Unknown batch node",
+    "batch_no_folder": "Connect a folder input to the batch node",
+    "batch_no_files": "No matching files in batch folder ({})",
+    "batch_completed": "Batch completed ({} files)",
+    "unknown_node": "Unknown node: {}",
+    "source_no_path": "Source node {} has no path set",
+    "not_executable": "Node {} is not an executable skill",
+    "missing_input": "Node {} is missing input",
+    "build_command_failed": "Failed to build command: {}",
+    "step_failed": "Step failed: {} (exit {})",
+    "stopped": "Workflow stopped"
+  }
+}

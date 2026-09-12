@@ -1,0 +1,22 @@
+{
+  "actual_mesh_size_m": [
+    9.045464038848877,
+    3.7739999294281006,
+    2.968682184815407
+  ],
+  "triangles_with_all_track_instances": 185480,
+  "blender_object_count": 284,
+  "glb_node_count": 284,
+  "glb_mesh_count": 42,
+  "animation_clips": 233,
+  "muzzle_follows_recoil_m": 0.23000001925489097,
+  "hatch_open_deg": 80,
+  "result": "PASS",
+  "shot_frames": [
+    301,
+    385
+  ],
+  "shot_recoil_peak_m": 0.23,
+  "presentation_fx_objects": 18,
+  "glb_contains_shot_recoil": true
+}
