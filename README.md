@@ -2,6 +2,12 @@
 
 # Agent CLI & GUI
 
+## StuG 184 Ausf.A
+
+GitHub Pages 展示：[打开 StuG 184 Ausf.A](https://3232837942-create.github.io/godot-agent/)
+
+项目包含基于 Blender 与 Three.js 的蓝灰线稿突击炮展示程序，支持多视图、炮塔/履带/舱盖动画、开火特效、模块展开和零件分解。
+
 Shared: root [`AGENTS.md`](AGENTS.md), [`skills/`](.cursor/skills/README.md) (instructions), [`.ai/`](.ai/) (scripts). To reuse skills elsewhere, copy the matching skill folders from both directories.
 
 | Agent | Setup |
